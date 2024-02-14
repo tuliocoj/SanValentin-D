@@ -185,10 +185,10 @@ function App() {
 
       {showMessage && (
         <div className={`p-5 ${showMessage ? 'fade-in' : 'fade-out'}`}>
-          <p className={`text-white text-lg text-center ${showMessage ? '' : 'hidden'}`}>Como los regalos este día están bien caros y todavía no han pagado 😕 y aprovechando que soy programador...</p>
+          <p className={`text-white text-lg text-center ${showMessage ? '' : 'hidden'}`}>Como los regalos este día están bien caros y todavía no han pagado 😕 y aprovechando que soy un genio 😎...</p>
           <p className={`text-white text-lg text-center ${showMessage ? '' : 'hidden'}`}>Aquí está tu carta del 14 🤗</p>
           <br />
-          <p className={`text-white text-g text-center ${showMessage ? '' : 'hidden'}`}>PD: si está algo culeron es que lo hice en una hora, jajajajajajaj</p>
+          <p className={`text-white text-g text-center ${showMessage ? '' : 'hidden'}`}>PD: si está algo culeron es que lo hice en una hora, pero con todo el cariño, jajajajajajaj</p>
         </div>
       )}
 
@@ -225,7 +225,7 @@ function App() {
         <div className="flex justify-center items-center flex-col space-y-10">
           <h1 className="text-4xl text-white font-bold">¡Sabía que dirías que sí! ❤️</h1>
           <p className="text-2xl text-white font-bold">Ahora vos pones la hora</p>
-          <img src="../public/fin.jpg" alt="" className="mx-auto" />
+          <img src="https://i.pinimg.com/564x/95/f2/1a/95f21a926b856bc72b1ea5abbab231fd.jpg" alt="" className="mx-auto" />
           <span hidden>{document.title = '¡Sabía que dirías que sí! ❤️'}</span>
         </div>
       )}
