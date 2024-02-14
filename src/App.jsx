@@ -126,56 +126,6 @@ function App() {
   };
 
   return (
-    // <main id="canvas" className="fondo w-screen h-screen bg-no-repeat bg-cover flex items-center justify-center bg-center ">
-    //   {showInitialText ? (
-    //     // Mostrar el mensaje inicial
-    //     <div className="p-5 mt-20">
-    //       <h1 className="text-white font-bold text-5xl text-center">Madeline</h1>
-    //       <br />
-    //       <p className="text-white text-lg text-center">Como los regalos este dia estan bien caros 😕... te hice esto, asi que mas te vale que te guste</p>
-
-          
-    //     </div>
-    //   ) : (
-    //     // Código principal después de que desaparece el mensaje inicial
-    //     !valueSi ? (
-    //       <div className="p-5">
-    //         <h1 className="text-white font-bold text-5xl text-center">¿Vamos a comer el viernes?</h1>
-    //         <img src={Object.keys(randomValor).length === 0 ?
-    //           "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif" : randomValor.img} alt="San Valentín" className="mx-auto" width={400} height={400} />
-    //         <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center">
-    //           <button onClick={() => {
-    //             setValueSi(true);
-
-    //             jsConfetti.addConfetti({
-    //               emojis: ['😍', '🥰', '❤️', '😘'],
-    //               emojiSize: 70,
-    //               confettiNumber: 80,
-    //             });
-
-    //           }} className={`bg-green-500 text-white font-bold p-2 rounded-md text-xl h-${agrandar}`} style={{ height: agrandar }}>
-    //             Sí
-    //           </button>
-    //           <button
-    //             className="bg-red-500 text-white font-bold p-2 rounded-md text-xl"
-    //             onClick={randomResponse}
-    //             disabled={imagenCargada} // Deshabilita el botón si la imagen no se ha cargado
-    //           >
-    //             {Object.keys(randomValor).length === 0 ? "No" : randomValor.description}
-    //             <span hidden>{document.title = Object.keys(randomValor).length === 0 ? "Madeline 😺" : randomValor.description}</span>
-    //           </button>
-    //         </div>
-    //       </div>
-    //     ) : (
-    //       <div className="flex justify-center items-center flex-col space-y-10">
-    //         <h1 className="text-4xl text-white font-bold">¡Sabía que dirías que sí! ❤️</h1>
-    //         <p className="text-2xl text-white font-bold">Ahora vos pones la hora</p>
-    //         <img src="../public/fin.jpg" alt="" className="mx-auto" />
-    //         <span hidden>{document.title = '¡Sabía que dirías que sí! ❤️'}</span>
-    //       </div>
-    //     )
-    //   )}
-    // </main>
     <main id="canvas" className="fondo w-screen h-screen bg-no-repeat bg-cover flex items-center justify-center bg-center ">
       <div className={`p-5 mt-20 ${showName ? 'fade-in' : 'fade-out'}`}>
         {showName && (
@@ -226,6 +176,7 @@ function App() {
           <h1 className="text-4xl text-white font-bold">¡Sabía que dirías que sí! ❤️</h1>
           <p className="text-2xl text-white font-bold">Ahora vos pones la hora</p>
           <img src="https://i.pinimg.com/564x/95/f2/1a/95f21a926b856bc72b1ea5abbab231fd.jpg" alt="" className="mx-auto" />
+          <p className="text-2xl text-white font-bold">Hay me mandas captura de lo elegiste y a donde queres ir a comer</p>
           <span hidden>{document.title = '¡Sabía que dirías que sí! ❤️'}</span>
         </div>
       )}
